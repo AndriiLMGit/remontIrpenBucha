@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    
+
     (function($) {
-        "use strict"; 
-    
-    /*------------------------------    
+        "use strict";
+
+    /*------------------------------
     Calendar
     ------------------------------*/
     $("#calendar").zabuto_calendar({
-        cell_border: true,
+        cell_border: false,
         today: true,
         show_days: true,
         weekstartson: 0,
@@ -16,6 +16,6 @@ $(document).ready(function(){
             next: '<i class="fa fa-chevron-circle-right"></i>'
         }
     })
-        
+
     })(jQuery)
 });
